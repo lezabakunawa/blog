@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display';
+}
+
+.wrapper {
+    width: 100%;
+}
+
+
+/* mobile design 393 max */
+
+@media only screen and (min-width: 375px) {
+
+    .wrapper {
+        width: 375px;
+    }
+
+    @font-face {
+        font-family: 'Playfair Display';
+        src: url('playfairdisplay-variablefont_wght-webfont.woff2') format('woff2'),
+             url('playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+    }
+
+
+    header {
+        background-image: url(/2022/LOVELESS.png);
+        height: 333px;
+        background-size: contain;
+        background-position: right;
+        margin-top: 0px;
+        background-repeat: no-repeat;
+        background-color: #fff;
+    }
+
+    footer {
+        background-color: #f0f8ff;
+        padding: 50px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-weight: none;
+        color: #38c8ff;
+        background-color: transparent;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: none;
+        background-color: transparent;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: none;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: none;
+    }
+
+    h5 {
+        font-size: 18px;
+        font-weight: none;
+    }
+
+    a {
+        display: inline-block;
+        color: #222222;
+        background-color: transparent;
+        font-size: 20px;
+        font-weight: none;
+        text-decoration: none;
+    }
+
+    a:hover {
+        display: inline-block;
+        color: #38c8ff;
+        background-color: transparent;
+        font-size: 20px;
+        font-weight: none;
+        text-decoration: none;
+    }
+
+    .checkbtn {
+        font-size: 30px;
+        color: #38c8ff;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+    
+    #check {
+        display: none;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #38c8ff;
+        margin-top: 60px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: right;
+        transition: all .5s;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    nav ul li {
+        display: block;
+        padding-top: 0px;
+        padding-right: 30px;
+        padding-left: 0px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover {
+        text-decoration: none;
+        color: #f8f8f8;
+        border-bottom: 1px solid #f8f8f8;
+        background-color: transparent;
+        font-weight: none;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    ul {
+        display: none;
+    }
+    
+    #check:checked ~ ul {
+        display: block;
+    }
+
+    body {
+        font-size: 18px;
+        font-weight: none;
+        color: #222222;
+        background-color: transparent;
+    }
+
+    .logo img {
+        margin-top: 25px;
+        margin-left: 25px;
+        float: left;
+        width: 150px;
+        height: auto;
+        background-color: transparent;
+    }
+
+    .general {
+        background-color: #fff;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .focus {
+        background-color: #f0f8ff;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .tbl {
+        border-width: 1px;
+        border-style: solid;
+        border-color: #222222;
+        padding: 25px;
+        background-color: transparent;
+
+    }
+
+    .btn {
+        border-width: 1px;
+        border-style: solid;
+        border-color: #222222;
+        padding: 25px;
+        background-color: transparent;
+        width: 222px;
+    }
+
+    .inquiry {
+        background-color: #f0f8ff;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}
+
+/* mobile design 393 max end */
+
+/* full screen 1366 min */
+
+@media only screen and (min-width: 1363px) {
+
+    .wrapper {
+        width: 1363px;
+    }
+
+    .checkbtn {
+        display: none;
+    }
+
+    header {
+        background-image: url(/2022/LOVELESS.png);
+        height: 666px;
+        background-size: 1000px;
+        background-position: bottom;
+        margin-top: 0px;
+        background-color: #ffffff;
+    }
+
+    footer {
+        background-color: #38c8ff;
+        padding-top: 50px;
+        padding-left: 150px;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 24px;
+        font-weight: normal;
+        color: #38c8ff;
+        background-color: transparent;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: normal;
+        background-color: transparent;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    h5 {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    a {
+        display: inline-block;
+        color: #222222;
+        background-color: transparent;
+        font-size: 18px;
+        font-weight: none;
+        text-decoration: none;
+    }
+
+    a:hover {
+        display: inline-block;
+        color: #38c8ff;
+        background-color: transparent;
+        font-size: 18px;
+        font-weight: none;
+        text-decoration: none;
+    }
+
+    nav ul {
+        position: absolute;
+        float: right;
+        list-style-type: none;
+        background-color: transparent;
+        padding: 0;
+        margin-top: 25px;
+        margin-right: 150px;
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    nav ul li {
+        display: inline-block;
+        color: #222222;
+        background-color: transparent;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #222222;
+        padding: 5px 10px;
+        border: 0px solid #f8f8f8;
+        transition: 0.5s ease;
+        background-color: transparent;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover {
+        text-decoration: none;
+        color: #38c8ff;
+        padding: 5px 10px;
+        border: 0px solid #000;
+        background-color: transparent;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+        background-color: transparent;
+        margin-left: 150px;
+        margin-top: 0px;
+    }
+
+    .general {
+        background-color: #ffffff;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    .focus {
+        background-color: #f0f8ff;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+
+    .tbl {
+        border-width: 1px;
+        border-style: solid;
+        border-color: #222222;
+        padding: 25px;
+        background-color: transparent;
+
+    }
+
+    .btn {
+        border-width: 1px;
+        border-style: solid;
+        border-color: #222222;
+        padding: 25px;
+        background-color: transparent;
+        width: 222px;
+
+    }
+
+    .inquiry {
+        background-color: #38c8ff;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+
+}
+/* full screen 1920 min */
+
