@@ -216,8 +216,8 @@
         display: none;
     }
 
-    .responsive {
-        max-width: 100%;
+    .responsiveimg {
+        max-width: 1000px;
         height: auto;
       }
 
