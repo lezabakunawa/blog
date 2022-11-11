@@ -216,9 +216,8 @@
         display: none;
     }
 
-    .responsiveimg {
+    .responsiveimgs {
         max-width: 1000px;
-        height: auto;
       }
 
     header {
