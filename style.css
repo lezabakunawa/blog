@@ -37,30 +37,30 @@
 
     h1 {
         font-size: 24px;
-        font-weight: none;
+        font-weight: bold;
         color: #38c8ff;
         background-color: transparent;
     }
 
     h2 {
         font-size: 20px;
-        font-weight: none;
+        font-weight: bold;
         background-color: transparent;
     }
 
     h3 {
         font-size: 18px;
-        font-weight: none;
+        font-weight: bold;
     }
 
     h4 {
         font-size: 18px;
-        font-weight: none;
+        font-weight: bold;
     }
 
     h5 {
         font-size: 18px;
-        font-weight: none;
+        font-weight: bold;
     }
 
     a {
@@ -237,30 +237,30 @@
 
     h1 {
         font-size: 24px;
-        font-weight: normal;
+        font-weight: bold;
         color: #38c8ff;
         background-color: transparent;
     }
 
     h2 {
         font-size: 20px;
-        font-weight: normal;
+        font-weight: bold;
         background-color: transparent;
     }
 
     h3 {
         font-size: 18px;
-        font-weight: normal;
+        font-weight: bold;
     }
 
     h4 {
         font-size: 18px;
-        font-weight: normal;
+        font-weight: bold;
     }
 
     h5 {
         font-size: 18px;
-        font-weight: normal;
+        font-weight: bold;
     }
 
     a {
